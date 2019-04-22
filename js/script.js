@@ -35,6 +35,7 @@ $(document).ready(function(){
       resize ();
     });
 
+
     //Submit data to CSV file with PHP
 
     $(".complete").hide();
