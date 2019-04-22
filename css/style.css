@@ -303,9 +303,8 @@ input {
 }
 
 input[type="name"], input[type="email"] {
-  width: 100%;
+  width: 50%;
   border-bottom: 3px solid black;
-  font-size: 2em;
   color: gray;
 }
 
@@ -492,6 +491,13 @@ footer>img {
   .blogs>li>a>div>span {
     padding: 2% 5%;
     font-size: 2em;
+  }
+
+  input[type="name"], input[type="email"] {
+    width: 100%;
+    border-bottom: 3px solid black;
+    font-size: 2em;
+    color: gray;
   }
 
   .submit {
