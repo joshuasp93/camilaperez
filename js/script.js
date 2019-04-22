@@ -25,15 +25,15 @@ $(document).ready(function(){
     });
 
     //Setting the height for the Iframe to be equal to the image in the left below the video ID
-    function resize () {
-      var newHeight = $(".image-height").height();
-      $(".video-height").css("height" , newHeight + "px");
-    }
-    resize ();
+    //function resize () {
+      //var newHeight = $(".image-height").height();
+      //$(".video-height").css("height" , newHeight + "px");
+  //  }
+    //resize ();
 
-    $(window).resize(function(){
-      resize ();
-    });
+//    $(window).resize(function(){
+  //    resize ();
+    //});
 
 
     //Submit data to CSV file with PHP
