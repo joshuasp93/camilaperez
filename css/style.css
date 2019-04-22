@@ -1,9 +1,3 @@
-/* Scrolling
-
-html {
-  scroll-behavior: smooth;
-}
- */
 /* Setting custome fonts */
 
 @font-face {
@@ -297,7 +291,7 @@ header {
 /* Newsletter */
 
 .form {
-  padding-left: 10%;
+  padding: 0 10%;
 }
 
 input {
@@ -309,8 +303,9 @@ input {
 }
 
 input[type="name"], input[type="email"] {
-  width: 50%;
+  width: 100%;
   border-bottom: 3px solid black;
+  font-size: 2em;
   color: gray;
 }
 
@@ -481,7 +476,7 @@ footer>img {
   }
 
   h3 {
-    font-size: 2.3em;
+    font-size: 3em;
   }
 
   .blogs>li {
@@ -489,14 +484,19 @@ footer>img {
   }
 
   .blogs>li>a>div>p {
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: normal;
     padding-bottom: 2%;
   }
 
   .blogs>li>a>div>span {
     padding: 2% 5%;
-    font-size: 1.3em;
+    font-size: 2em;
+  }
+
+  .submit {
+    padding: 2% 5%;
+    font-size: 2em;
   }
 
   footer {
