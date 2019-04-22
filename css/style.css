@@ -451,6 +451,10 @@ footer>img {
     font-size: 1.7em;
   }
 
+  .events {
+    padding: 2% 10%;
+  }
+
   .events>li {
     font-family: poppins-regular;
     font-size: 1.5em;
