@@ -261,7 +261,7 @@ header {
   list-style: none;
   border: 1px solid black;
   max-width: 46%;
-  margin: 2%;
+  margin: 2% 0;
   padding: 0;
 }
 
